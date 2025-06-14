@@ -114,7 +114,7 @@ scene.add(floor);
 /**
  * Lights
  */
-const directionalLight = new THREE.DirectionalLight('#313fa2', 2);
+const directionalLight = new THREE.DirectionalLight("#313fa2", 2);
 directionalLight.castShadow = true;
 directionalLight.shadow.camera.far = 15;
 directionalLight.shadow.mapSize.set(1024, 1024);
