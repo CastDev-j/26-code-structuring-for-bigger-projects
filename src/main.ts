@@ -12,6 +12,7 @@ const debugObject = {
   envMapIntensity: 0.4,
 };
 
+
 /**
  * Set up scene
  */
@@ -241,3 +242,7 @@ if (window.visualViewport) {
 } else {
   window.addEventListener("resize", handleResize);
 }
+
+
+ 
+
